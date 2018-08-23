@@ -35,7 +35,7 @@ public class AntsGoMarching
      */
     public static void littleAnt(String action)
     {   
-        System.out.println("The little one stops to suck his thumb");
+        System.out.println("The little one stops to "+ action +"");
     }
     
     /**
@@ -61,8 +61,9 @@ public class AntsGoMarching
         noHurrah(n);
         goMarching(n);
         littleAnt(action);
-        rain();
-        
+        if (!n.equals("ten")) {
+            rain();
+        }
     }
 
     /**
@@ -72,7 +73,16 @@ public class AntsGoMarching
     {
         System.out.println("Ants Go Marching\n");
         
-        singIt("one","suck his thumb");
+        singIt("one","suck his thumb"); 
+        singIt("two","tie his shoe");
+        singIt("three","climb a tree");
+        singIt("four","shut the door");
+        singIt("five","take a dive");
+        singIt("six","pick up sticks");
+        singIt("seven","pray to heaven");
+        singIt("eight","roller skate");
+        singIt("nine","check the time");
+        singIt("ten","shout The end!");
     }
    
 }
