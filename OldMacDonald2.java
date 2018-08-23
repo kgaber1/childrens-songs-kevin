@@ -48,7 +48,8 @@ public class OldMacDonald2
         singIt("cow", "moo");
         singIt("horse", "neigh");
         singIt("platypus","gdggdggddgdg");
-        
+        singIt("pig","oink");
+        singIt("Donkey","heyuh");
         // now see how easy it is to add some more animals  
         
         
