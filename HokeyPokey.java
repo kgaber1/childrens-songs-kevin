@@ -49,6 +49,7 @@ public class HokeyPokey
         System.out.println("You do the Hokey-Pokey,");
         System.out.println("And you turn yourself around.");
         System.out.println("That's what it's all about!");
+        System.out.println();
     }
 
 
@@ -74,9 +75,14 @@ public class HokeyPokey
         
         singIt("right foot");
         singIt("right hand");
+        singIt("left foot");
+        singIt("left hand");
         singIt("backside");
-        singIt("nose");
+        singIt("head");
+        singIt("right hip");
+        singIt("left hip");
         singIt("whole self");
+        
     }
    
 }
